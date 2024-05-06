@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color:transparent;
+    border: 1px solid rgb(224, 155, 224);
+    box-shadow: 0 0 10px gray;
+    backdrop-filter: blur(30px);
+    color: white;
+    width: 500px;
+    height: 450px;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.text{
+    font-size:33px;
+    font-family:cursive;
+    font-weight: bold;
+    
+    
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    width: 350px;
+    height: px;
+}
+
+.input img{
+    margin-right: 15px;
+    width:30;
+    height: 30;
+}
+
+.input input{
+    height: 35px;
+    width: 450px;
+    background: transparent;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    gap: 4;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+.forget-password{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    font-family:cursive;
+    text-decoration-line: underline;
+    text-underline-position: below;
+    cursor: pointer;
+}
+
+
+.submit-div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10px;
+}
+
+.submit{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    height: 37px;
+    background-color: aliceblue;
+    color: rgb(124, 27, 124);
+    text-align: center;
+    padding-top:9px ;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:active{
+    color: white;
+    background-color: rgb(194, 166, 233);
+}
